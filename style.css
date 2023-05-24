@@ -3,13 +3,32 @@ html {
 }
 
 header {
+  /* position: fixed;
+  top: 30px; */
+  width: 100%;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
   background-color: rgb(255, 255, 255);
-  max-width: 50%;
-  margin: 30px auto;
+  margin: 0 auto;
   padding: 15px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.568);
+}
+
+.logo {
+  padding: 10px;
+  background-color: black;
+  color: gold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 body {
@@ -21,7 +40,6 @@ nav ul {
   justify-content: center;
   text-decoration: none;
   font-size: x-large;
-
 }
 
 a {
@@ -35,13 +53,13 @@ li {
   margin-right: 50px;
   font-weight: bold;
   color: rgb(168, 168, 3);
-  
-
 }
 
 .hero {
   display: flex;
+  align-items: center;
   margin-top: 50px;
+  height: 80vh;
 }
 
 .immagine,
@@ -66,6 +84,24 @@ section {
   font-weight: 300;
 }
 
-  .testo h1 span {
-      font-weight: bold;
+.testo h1 span {
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cosa-facciamo h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.cosa-facciamo .card {
+  box-sizing: border-box;
+  background: white;
+  width: calc(33.3% - 20px);
+  padding: 30px;
 }
