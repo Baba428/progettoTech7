@@ -4,32 +4,39 @@ html {
 
 header {
   background-color: rgb(255, 255, 255);
-  max-width: 60%;
+  max-width: 50%;
   margin: 30px auto;
   padding: 15px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.568);
 }
 
 body {
-  background-color: rgb(206, 206, 7);
+  background-color: gold;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
   text-decoration: none;
+  font-size: x-large;
+
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 li {
   list-style: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+  color: rgb(168, 168, 3);
+  
+
 }
 
 .hero {
@@ -57,4 +64,8 @@ section {
 .testo p {
   font-size: 1.8rem;
   font-weight: 300;
+}
+
+  .testo h1 span {
+      font-weight: bold;
 }
