@@ -6,13 +6,14 @@ header {
   /* position: fixed;
   top: 30px; */
   width: 100%;
-  margin: 30px;
+  margin: 60px;
   display: flex;
   align-items: center;
+  
 }
 
 nav {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.329);
   margin: 0 auto;
   padding: 15px;
   border-top-left-radius: 15px;
@@ -24,6 +25,10 @@ nav {
   padding: 10px;
   background-color: black;
   color: gold;
+  position: absolute;
+  left: 0%;
+  margin-left: 250px;
+  
 }
 
 .container {
@@ -32,7 +37,11 @@ nav {
 }
 
 body {
-  background-color: gold;
+  background-image: url(yellow_diagonal_geometric_striped_background_with_halftone_detailed.jpg);
+  background: gold url(yellow_diagonal_geometric_striped_background_with_halftone_detailed.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5px;
 }
 
 nav ul {
@@ -49,8 +58,8 @@ a {
 
 li {
   list-style: none;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
   font-weight: bold;
   color: rgb(168, 168, 3);
 }
@@ -92,16 +101,41 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  align-items: center;
+  margin-bottom: 70px;
 }
 
 .cosa-facciamo h2 {
+  
+  font-size: 40px;
+  
+}
+
+h2{
+  background-color: hsla(0, 0%, 100%, 0.308);
+  margin-left: 33.9%;
+  margin-right: 33.9%;
   text-align: center;
-  font-size: 30px;
+  border-radius: 15px;
+
+}
+
+.cosa-facciamo h3 {
+
 }
 
 .cosa-facciamo .card {
   box-sizing: border-box;
-  background: white;
+  background: rgba(255, 255, 255, 0.295);
   width: calc(33.3% - 20px);
   padding: 30px;
+  border-radius: 15px;
 }
+
+.logoig {
+
+  position: absolute;
+  right: 0%;
+  margin-right: 250px;
+}
+
