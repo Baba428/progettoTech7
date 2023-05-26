@@ -10,24 +10,31 @@ header {
   display: flex;
   align-items: center;
   
+  
 }
 
+
 nav {
-  background-color: rgba(255, 255, 255, 0.329);
+  background-color: rgba(255, 255, 255, 0.507);
   margin: 0 auto;
   padding: 15px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.568);
+  position: fixed;
+  top: 0%;
+  margin-top: 1%;
 }
 
 .logo {
   padding: 10px;
-  background-color: black;
+  background-color: rgba(252, 252, 252, 0.089);
   color: gold;
   position: absolute;
   left: 0%;
-  margin-left: 250px;
+  margin-left: 170px;
+  margin-top: 6%;
+  
   
 }
 
@@ -37,8 +44,8 @@ nav {
 }
 
 body {
-  background-image: url(yellow_diagonal_geometric_striped_background_with_halftone_detailed.jpg);
-  background: gold url(yellow_diagonal_geometric_striped_background_with_halftone_detailed.jpg);
+  background-image: url(12345.png);
+  background: gold url(12345.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5px;
@@ -83,6 +90,7 @@ section {
 .testo h1 {
   font-weight: 400;
   font-size: 50px;
+  color: white;
 }
 
 .testo h1 span {
@@ -91,10 +99,12 @@ section {
 .testo p {
   font-size: 1.8rem;
   font-weight: 300;
+  color: white;
 }
 
 .testo h1 span {
   font-weight: bold;
+  color: white;
 }
 
 .cards {
@@ -112,7 +122,7 @@ section {
 }
 
 h2{
-  background-color: hsla(0, 0%, 100%, 0.308);
+  background-color: rgba(255, 255, 255, 0.562);
   margin-left: 33.9%;
   margin-right: 33.9%;
   text-align: center;
@@ -120,13 +130,13 @@ h2{
 
 }
 
-.cosa-facciamo h3 {
+/*.cosa-facciamo h3 {
 
-}
+}*/
 
 .cosa-facciamo .card {
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.295);
+  background: rgba(255, 255, 255, 0.527);
   width: calc(33.3% - 20px);
   padding: 30px;
   border-radius: 15px;
@@ -137,5 +147,12 @@ h2{
   position: absolute;
   right: 0%;
   margin-right: 250px;
+  margin-top: 6%;
+  
+}
+
+.mappa{
+  margin-top: 3%;
+  text-align: center;
 }
 
