@@ -41,6 +41,7 @@ nav {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 body {
@@ -155,4 +156,13 @@ h2{
   margin-top: 3%;
   text-align: center;
 }
+
+#container .cards{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin-left: 5%;
+  width: 25%;
+  margin-top: 5%;
+}
+
 
