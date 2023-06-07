@@ -152,7 +152,7 @@ h2 {
 }
 
 .logoig:hover {
-  color: yellow;
+  color: gold;
 }
 
 .mappa {
@@ -178,7 +178,7 @@ footer .logo {
   margin-left: 0;
 }
 
-.contacts li {
+.contacts svg {
   background-color: gold;
   padding: 5px;
   border-radius: 10px;
@@ -197,4 +197,6 @@ a{
 .logi{
   color: black;
   display:flexbox;
+  position: relative;
 }
+
